@@ -4,7 +4,7 @@ import google from 'googlethis'
 export default class Command extends BaseCommand {
     constructor(client, handler) {
         super(client, handler, {
-            command: 'imagesearch',
+            command: 'image',
             category: 'search',
             description: {
                 content: 'Searches image from google.com',
